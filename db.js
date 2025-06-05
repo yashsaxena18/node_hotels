@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 
 //define the mangodb connection url
-const mongoURL='mongodb://localhost:27017/yashdb'  //Replace 'mydatabase' with your database name 
+//const mongoURL='mongodb://localhost:27017/yashdb'  //Replace 'mydatabase' with your database name 
+const mongoURL='mongodb+srv://yashsaxena:kishusandhya1+@cluster0.ivae0ca.mongodb.net/'
 //set up the mongoDB connection
 console.log('Connecting to MongoDB...');
 
